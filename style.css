@@ -1,0 +1,310 @@
+
+
+
+
+body{
+  font-family: Myriad Pro Regular;
+}
+h1,h2,h3,h4,h5,h6{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffcc33;
+}
+.header{
+  background: url('images/header.jpg');
+  background-repeat: no-repeat;
+  height: 738px;
+}
+.nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  border-radius: 15px !important;
+  padding: 4px 18px !important;
+}
+
+
+.active{
+  color: #000 !important;
+  background-color: #ffcc33 !important;
+  font-weight: bold;
+  border-radius: 15px !important;
+  padding: 4px 18px !important;
+
+}
+
+.nav-link:hover{
+  color: #000 !important;
+  background-color: #ffcc33;
+
+}
+#car1 h3{
+  color: #ffcc33 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#car1 h1{
+  font-weight: bold;
+}
+#car1 h6{
+  letter-spacing: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#car1 img{
+  position: relative;
+  top: 60px;
+}
+/* Book Start here */
+#book{
+  background: #ffcc33;
+
+}
+#book h1, .display{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#book .ml-5{
+    margin-left: 5rem !important;
+}
+#book .card-body form input[type="text"]
+{
+  width: 46%;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #e4e4e4;
+
+  font-weight: bold;
+  border-radius: none;
+}
+#book .card-body form input.form-control:focus{
+  border-color: #ffcc33;
+  box-shadow: none;
+
+}
+#book form select{
+  border: 0;
+  border-bottom: 2px solid #e4e4e4;
+}
+#book form select.form-control:focus{
+  border-color: #ffcc33;
+  box-shadow: none;
+}
+/* Car  */
+#car .card img{
+  margin-top:-5rem;
+}
+#car .card h1{
+  color: #ffcc33;
+  font-weight: bold;
+
+}
+#car .card .btn{
+  background-color: #ffcc33;
+  font-weight: bold;
+
+}
+#car .card .card-body:hover h3{
+  color: #000;
+
+}
+#car .card .card-body:hover h1{
+  color: #000;
+
+}
+#car .card .card-body:hover .btn{
+    background-color: #000;
+    color: #fff;
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.7);
+  }
+#car .card .card-body:hover{
+    background-color: #ffcc33;
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.7);;
+}
+/* Ride */
+#ride{
+  background: url('images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ride img{
+  position: absolute;
+  padding-top: 20px;
+}
+#ride .lead{
+  font-size: 1rem;
+}
+#ride .text-area{
+  position: relative;
+  margin-left: 100px;
+}
+/* Tesimonials */
+#test{
+  background: url('images/bg3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#test img{
+  position: absolute;
+
+}
+#test .man{
+  position: relative;
+  margin-left: 100px;
+}
+/* call */
+#call{
+  background: #ffcc33;
+}
+#contact{
+  background: url('images/bg4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.hr{
+  border: 3px solid #ffcc33;
+}
+#contact .icon .fa{
+  font-size: 30px;
+  position: absolute;
+
+
+}
+#contact .h li{
+  list-style: none;
+  font-size: 20px;
+}
+#contact .h li span{
+  color: #ffcc33;
+}
+
+#contact .h .fab{
+  margin-left: 30px;
+  font-size: 25px;
+}
+#contact .h .fa-apple{
+  margin-left: 80px;
+  font-size: 25px;
+}
+.fab{
+  font-size: 20px;
+  padding-right: 10px;
+  color: #ffcc33;
+}
+#contact .icon h6{
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: capitalize;
+  position: relative;
+  margin-left: 40px;
+
+
+
+}
+
+
+
+
+
+@media (max-width:991px){
+.nav-link{
+  padding:4px 8px !important;
+}
+}
+
+@media (max-width:767px) {
+  .navbar-nav{
+    margin-top: 1rem !important;
+  }
+  #car .card{
+    margin-top: 30px;
+  }
+  #car .col-md-12{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #ride .pb-5, .py-5{
+    padding-top: 0rem !important;
+
+  }
+  #ride .col-lg-12{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #download .col-md-12{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #test .col-md-12{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  #contact .h h5{
+    padding-top: 50px;
+  }
+  #download .col-lg-12{
+    margin-top: 30px;
+  }
+  #call .col-md-12{
+    margin-top: 30px;
+  }
+
+}
+@media (max-width:558px) {
+
+     .mt-5, .my{
+       margin-top:1rem !important;
+  }
+  .pt-5, .py-5{
+    padding-top: 1rem !important;
+  }
+  #car .col-md-12{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #ride .pb-5, .py-5{
+    padding-top: 0rem !important;
+
+  }
+  #ride .col-lg-12{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #download .img{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #download .col-lg-12{
+    margin-top: 30px;
+  }
+  #download .col-lg-12 h1{
+    font-size: 2rem;
+  }
+  #download .col-md-6 h4{
+    font-size: 1.25rem;
+  }
+  #call .col-md-12{
+    margin-top: 30px;
+  }
+  #contact .mar{
+    margin-top: 30px;
+
+  }
+}
+@media (max-width:420px) {
+  .display-4{
+    font-size: 2rem;
+  }
+  #car .col-md-12{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #ride .col-lg-12{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+}
